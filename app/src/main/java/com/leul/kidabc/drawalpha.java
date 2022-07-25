@@ -1,6 +1,7 @@
 package com.leul.kidabc;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -25,7 +26,7 @@ public class drawalpha extends AppCompatActivity {
     Path path2;
     Bitmap bitmap;
     Canvas canvas;
-    Button button;
+    Button button,button1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +35,7 @@ public class drawalpha extends AppCompatActivity {
         relativeLayout = (RelativeLayout) findViewById(R.id.relativelayout1);
 
         button = (Button)findViewById(R.id.button);
+        button1=findViewById(R.id.backk);
 
         view = new SketchSheetView(drawalpha.this);
 
@@ -56,6 +58,13 @@ public class drawalpha extends AppCompatActivity {
         paint.setStrokeCap(Paint.Cap.ROUND);
 
         paint.setStrokeWidth(27);
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(getApplicationContext(),home.class);
+                startActivity(intent);
+            }
+        });
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override

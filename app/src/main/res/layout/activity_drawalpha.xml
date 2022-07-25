@@ -11,7 +11,7 @@
     <RelativeLayout
         android:id="@+id/relativelayout1"
         android:layout_width="match_parent"
-        android:layout_height="362dp"
+        android:layout_height="312dp"
         android:layout_below="@+id/dashboard_t"
         android:layout_marginTop="81dp">
 
@@ -23,6 +23,7 @@
             android:backgroundTint="#C3883E"
             android:text="To clean click here and write again"
             android:textColor="#FFFFFF" />
+
 
     </RelativeLayout>
 
@@ -41,4 +42,14 @@
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/backk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="680dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="@color/black"
+        android:text="Back"
+        android:textColor="#FFFFFF" />
 </RelativeLayout>
