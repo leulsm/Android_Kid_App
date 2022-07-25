@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/new_color"
+    tools:context=".home">
+
+    <ImageButton
+        android:id="@+id/btn_learn"
+        android:layout_width="164dp"
+        android:layout_height="168dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="63dp"
+        android:background="@color/new_color111"
+        android:elevation="16sp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toStartOf="@+id/btn_write"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/abcd" />
+
+    <ImageButton
+        android:id="@+id/btn_write"
+        android:layout_width="145dp"
+        android:layout_height="182dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="16dp"
+
+        android:background="@color/new_color111"
+        android:elevation="26sp"
+        android:fadingEdge="horizontal"
+        android:scaleType="fitXY"
+        app:circularflow_radiusInDP="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button11"
+        app:srcCompat="@drawable/gg" />
+
+    <ImageButton
+        android:id="@+id/btn_music"
+        android:layout_width="171dp"
+        android:layout_height="189dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="38dp"
+        android:background="@color/new_color111"
+        android:elevation="36sp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/bb" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="163dp"
+        android:layout_height="178dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/new_color111"
+        android:elevation="46sp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/fdf" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="152dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="15dp"
+        android:text="LEARN"
+        android:textColor="@color/new_color111"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_learn" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="152dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="93dp"
+        android:text="QUIZ TIME"
+        android:textColor="@color/new_color111"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton8" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="152dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="16dp"
+        android:text="WRITE"
+        android:textColor="@color/new_color111"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_write" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="152dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="155dp"
+        android:text="LISTEN"
+        android:textColor="@color/new_color111"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_music" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="62dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/new_color111"
+        android:backgroundTint="@color/new_color111"
+        android:foregroundTint="@color/new_color111"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
