@@ -8,7 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-
+    <color name="colorBackground">#BCAAA4</color>
     <color name="new_color1">#B9E5BA84</color>
 
     <color name="purple_500">#009688</color>

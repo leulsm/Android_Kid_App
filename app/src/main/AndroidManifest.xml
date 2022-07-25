@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KIDABC">
+        <activity android:name=".Quizmain"
+            android:exported="false"/>
+        <activity android:name=".quizActivity"
+            android:exported="false"/>
         <activity
         android:name=".reg"
         android:exported="false" />

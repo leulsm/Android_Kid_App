@@ -13,7 +13,7 @@ import java.util.Objects;
 
 public class home extends AppCompatActivity {
     private long backpressedtime;
-    ImageButton learn,write,quiz,music,profile;
+    ImageButton learn,write,quiza,music,profile;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +22,7 @@ public class home extends AppCompatActivity {
         learn=findViewById(R.id.btn_learn);
         write=findViewById(R.id.btn_write);
         music=findViewById(R.id.btn_music);
+        quiza=findViewById(R.id.btn_quiz);
 
         write.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,7 +39,16 @@ public class home extends AppCompatActivity {
              //   startActivity(intent);
             }
         });
+
+        quiza.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(getApplicationContext(),Quizmain.class);
+                  startActivity(intent);
+            }
+        });
     }
+
 
     @Override
     public void onBackPressed() {

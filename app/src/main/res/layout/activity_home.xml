@@ -48,13 +48,13 @@
         android:background="@color/new_color111"
         android:elevation="36sp"
         android:scaleType="fitXY"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton8"
+        app:layout_constraintEnd_toStartOf="@+id/btn_quiz"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/bb" />
 
     <ImageButton
-        android:id="@+id/imageButton8"
+        android:id="@+id/btn_quiz"
         android:layout_width="163dp"
         android:layout_height="178dp"
         android:layout_marginTop="45dp"
@@ -92,7 +92,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton8" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_quiz" />
 
     <TextView
         android:id="@+id/textView4"
