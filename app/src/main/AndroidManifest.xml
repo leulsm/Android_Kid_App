@@ -16,6 +16,8 @@
         <activity
         android:name=".reg"
         android:exported="false" />
+        <activity android:name=".musics"
+            android:exported="false"/>
         <activity
             android:name=".home"
             android:exported="false" />
