@@ -69,6 +69,7 @@ public class reg extends AppCompatActivity {
             }
         });
     }
+
     public void next(){
         Intent intent=new Intent(getApplicationContext(),login.class);
         startActivity(intent);

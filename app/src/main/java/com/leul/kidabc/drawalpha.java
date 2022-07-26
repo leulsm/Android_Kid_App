@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -26,7 +27,8 @@ public class drawalpha extends AppCompatActivity {
     Path path2;
     Bitmap bitmap;
     Canvas canvas;
-    Button button,button1;
+    Button button,button1,up,lo;
+    TextView tv;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +38,24 @@ public class drawalpha extends AppCompatActivity {
 
         button = (Button)findViewById(R.id.button);
         button1=findViewById(R.id.backk);
+        up=findViewById(R.id.capitallet);
+        lo=findViewById(R.id.smalllet);
+        up.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String a="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+                tv=findViewById(R.id.dashboard_t);
+                tv.setText(a);
+            }
+        });
+        lo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String a="abcdefghijklmnopqrstuvwxyz";
+tv=findViewById(R.id.dashboard_t);
+tv.setText(a);
+            }
+        });
 
         view = new SketchSheetView(drawalpha.this);
 

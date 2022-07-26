@@ -1,5 +1,6 @@
 package com.leul.kidabc;
 
+import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
@@ -12,6 +13,7 @@ import android.widget.VideoView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class musics extends AppCompatActivity {
     VideoView videoView;
@@ -23,6 +25,8 @@ public class musics extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_musics);
+        Objects.requireNonNull(getSupportActionBar()).setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.new_color1)));
+
         videoView=findViewById(R.id.vd);
         listView=findViewById(R.id.lv);
         videoList= new ArrayList<>();

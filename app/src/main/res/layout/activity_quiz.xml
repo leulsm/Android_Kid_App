@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/new_color111"
+    android:background="@color/new_color"
     android:padding="16dp"
     tools:context=".quizActivity">
 
@@ -96,6 +96,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/radio_group"
         android:layout_marginTop="1dp"
+        android:backgroundTint="#C3883E"
         android:text="confirm" />
 
 </RelativeLayout>

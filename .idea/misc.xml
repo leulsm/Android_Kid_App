@@ -3,19 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/drawable/buttonstyle.xml" value="0.205" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/drawable/radio_selected.xml" value="0.1" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/drawable/radio_selector.xml" value="0.1" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/drawable/radionormal.xml" value="0.1" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/layout/activity_drawalpha.xml" value="0.22" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/layout/activity_musics.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/layout/activity_quiz.xml" value="0.1" />
-        <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/layout/activity_quizmain.xml" value="0.1" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/layout/activity_quizmain.xml" value="0.2276595744680851" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/KIDABC/app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/KIDABC/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/KIDABC/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/KIDABC/app/src/main/res/layout/activity_reg.xml" value="0.25" />
-        <entry key="..\:/Users/lula/AndroidStudioProjects/Android_Kid_App/app/src/main/res/layout/activity_home.xml" value="0.1" />
-        <entry key="..\:/Users/lula/AndroidStudioProjects/Android_Kid_App/app/src/main/res/layout/activity_musics.xml" value="0.1" />
       </map>
     </option>
   </component>

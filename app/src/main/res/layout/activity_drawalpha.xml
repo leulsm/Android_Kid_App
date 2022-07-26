@@ -4,16 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#c3883e"
+    android:background="#e5ba84"
     tools:context=".drawalpha">
 
 
     <RelativeLayout
         android:id="@+id/relativelayout1"
         android:layout_width="match_parent"
-        android:layout_height="312dp"
+        android:layout_height="365dp"
         android:layout_below="@+id/dashboard_t"
-        android:layout_marginTop="81dp">
+        android:layout_marginTop="1dp">
 
         <Button
             android:id="@+id/button"
@@ -22,7 +22,9 @@
             android:layout_marginBottom="67dp"
             android:backgroundTint="#C3883E"
             android:text="To clean click here and write again"
-            android:textColor="#FFFFFF" />
+            android:textColor="#FFFFFF"
+            app:icon="@drawable/ic_baseline_settings_backup_restore_24"
+            app:iconTint="#FFFFFF" />
 
 
     </RelativeLayout>
@@ -30,15 +32,13 @@
     <TextView
         android:id="@+id/dashboard_t"
         android:layout_width="match_parent"
-        android:layout_height="286dp"
-        android:layout_marginStart="16dp"
-        android:background="@color/new_color111"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:background="@color/new_color"
         android:letterSpacing="0.5"
-
-
         android:text="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
         android:textColor="@color/white"
-        android:textSize="50sp"
+        android:textSize="65sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -47,9 +47,32 @@
         android:id="@+id/backk"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="680dp"
-        android:background="#FFFFFF"
-        android:backgroundTint="@color/black"
+        android:layout_marginTop="755dp"
+        android:backgroundTint="#C3883E"
         android:text="Back"
-        android:textColor="#FFFFFF" />
+        android:textColor="#FFFFFF"
+        app:icon="@drawable/ic_baseline_arrow_back_24"
+        app:iconTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/capitallet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="755dp"
+        android:backgroundTint="#C3883E"
+        android:text="CAPITAL"
+        android:textColor="#FFFFFF"
+        app:iconTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/smalllet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="755dp"
+        android:backgroundTint="#C3883E"
+        android:text="small"
+        android:textColor="#FFFFFF"
+        app:iconTint="#FFFFFF" />
 </RelativeLayout>

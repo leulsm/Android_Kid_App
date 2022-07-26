@@ -35,7 +35,7 @@
         android:scaleType="fitXY"
         app:circularflow_radiusInDP="10sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button11"
+        app:layout_constraintTop_toBottomOf="@+id/profilekid"
         app:srcCompat="@drawable/gg" />
 
     <ImageButton
@@ -123,14 +123,19 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_music" />
 
     <Button
-        android:id="@+id/button11"
-        android:layout_width="62dp"
-        android:layout_height="58dp"
+        android:id="@+id/profilekid"
+        android:layout_width="144dp"
+        android:layout_height="57dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:background="@color/new_color111"
         android:backgroundTint="@color/new_color111"
-        android:foregroundTint="@color/new_color111"
+        android:shadowRadius="430"
+        android:text="Pro"
+        android:textColor="#FFFFFF"
+        app:icon="@drawable/ic_baseline_account_box_24"
+        app:iconGravity="start"
+        app:iconSize="60sp"
+        app:iconTint="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

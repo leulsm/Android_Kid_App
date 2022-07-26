@@ -2,12 +2,15 @@ package com.leul.kidabc;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import java.util.Objects;
 
 public class Quizmain extends AppCompatActivity {
     private static final int REQUEST_CODE_QUIZ=1;
@@ -23,8 +26,18 @@ public class Quizmain extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quizmain);
+        Objects.requireNonNull(getSupportActionBar()).setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.new_color1)));
 
         Button buttonstartquiz=findViewById(R.id.start_button);
+        Button buttonexit=findViewById(R.id.exit_btn);
+
+        buttonexit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(getApplicationContext(),home.class);
+                startActivity(intent);
+            }
+        });
 
         textviewhighscore=findViewById(R.id.text_highscore);
         loadhighscore();

@@ -143,6 +143,7 @@ package com.leul.kidabc;
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -155,6 +156,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.Collections;
 import java.util.List;
+import java.util.Objects;
 
 public class quizActivity extends AppCompatActivity {
     public static final String EXTRA_SCORE="extrascore";
@@ -184,6 +186,8 @@ public class quizActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz);
+        Objects.requireNonNull(getSupportActionBar()).setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.new_color1)));
+
         textViewQuestion = findViewById(R.id.text_view_question);
         textViewScore = findViewById(R.id.text_view);
         textViewQuestionCount = findViewById(R.id.text_view_count);
@@ -200,7 +204,6 @@ public class quizActivity extends AppCompatActivity {
 
 
         questionList = dbHelper.getAllQuestions();
-        Toast.makeText(this, "why", Toast.LENGTH_SHORT).show();
         questionCountTotal = questionList.size();
         Collections.shuffle(questionList);
 
