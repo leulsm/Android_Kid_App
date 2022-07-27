@@ -25,6 +25,7 @@ public class home extends AppCompatActivity {
         write=findViewById(R.id.btn_write);
         music=findViewById(R.id.btn_music);
         quiza=findViewById(R.id.btn_quiz);
+//        profile=findViewById(R.id.profilekid);
 
         final MediaPlayer mediaPlayer=MediaPlayer.create(this,R.raw.ttttttttt);
 

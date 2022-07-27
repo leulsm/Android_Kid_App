@@ -14,8 +14,8 @@
         <activity android:name=".quizActivity"
             android:exported="false"/>
         <activity
-        android:name=".reg"
-        android:exported="false" />
+            android:name=".reg"
+            android:exported="false" />
         <activity android:name=".musics"
             android:exported="false"/>
         <activity
