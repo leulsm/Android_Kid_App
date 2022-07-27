@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c3883e"
+    tools:context=".drawalpha">
+
+
+    <RelativeLayout
+        android:id="@+id/relativelayout1"
+        android:layout_width="match_parent"
+        android:layout_height="362dp"
+        android:layout_below="@+id/dashboard_t"
+        android:layout_marginTop="81dp">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="67dp"
+            android:backgroundTint="#C3883E"
+            android:text="To clean click here and write again"
+            android:textColor="#FFFFFF" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/dashboard_t"
+        android:layout_width="match_parent"
+        android:layout_height="286dp"
+        android:layout_marginStart="16dp"
+        android:background="@color/new_color111"
+        android:letterSpacing="0.5"
+
+
+        android:text="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</RelativeLayout>
