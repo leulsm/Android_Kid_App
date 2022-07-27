@@ -5,6 +5,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
@@ -14,7 +15,8 @@ import java.util.Objects;
 
 public class home extends AppCompatActivity {
     private long backpressedtime;
-    ImageButton learn,write,quiza,music,profile;
+    ImageButton learn,write,quiza,music;
+    Button profile;
     MediaPlayer mp;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,8 +27,8 @@ public class home extends AppCompatActivity {
         write=findViewById(R.id.btn_write);
         music=findViewById(R.id.btn_music);
         quiza=findViewById(R.id.btn_quiz);
-//        profile=findViewById(R.id.profilekid);
-
+        profile=findViewById(R.id.profilekid);
+String n=getIntent().getStringExtra("name");
         final MediaPlayer mediaPlayer=MediaPlayer.create(this,R.raw.ttttttttt);
 
         write.setOnClickListener(new View.OnClickListener() {
@@ -53,6 +55,16 @@ public class home extends AppCompatActivity {
                   startActivity(intent);
             }
         });
+
+        profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+Intent in=new Intent(getApplicationContext(),profileactiv.class);
+in.putExtra("name",n);
+startActivity(in);
+            }
+        });
+
     }
 
     @Override

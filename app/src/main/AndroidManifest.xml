@@ -9,20 +9,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KIDABC">
-        <activity android:name=".Quizmain"
-            android:exported="false"/>
-        <activity android:name=".quizActivity"
-            android:exported="false"/>
+        <activity
+            android:name=".profileactiv"
+            android:exported="false" />
+        <activity
+            android:name=".Quizmain"
+            android:exported="false" />
+        <activity
+            android:name=".quizActivity"
+            android:exported="false" />
         <activity
             android:name=".reg"
             android:exported="false" />
-        <activity android:name=".musics"
-            android:exported="false"/>
+        <activity
+            android:name=".musics"
+            android:exported="false" />
         <activity
             android:name=".home"
             android:exported="false" />
-        <activity android:name=".drawalpha"
-            android:exported="false"/>
+        <activity
+            android:name=".drawalpha"
+            android:exported="false" />
         <activity
             android:name=".login"
             android:exported="false" />
