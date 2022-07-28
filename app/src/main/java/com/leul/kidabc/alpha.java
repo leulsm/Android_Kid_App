@@ -71,8 +71,8 @@ Button a,b,c,d,e,f,g,h,i,j,k,l,mm,n,o,p,q,r,s,t,u,v,w,x,y,z;
         final MediaPlayer mp18= MediaPlayer.create(this, R.raw.r);
         final MediaPlayer mp19= MediaPlayer.create(this, R.raw.s);
         final MediaPlayer mp10= MediaPlayer.create(this, R.raw.t);
-        final MediaPlayer mp111= MediaPlayer.create(this, R.raw.u_song);
-        final MediaPlayer mp112 = MediaPlayer.create(this, R.raw.v_song);
+        final MediaPlayer mp111= MediaPlayer.create(this, R.raw.u);
+        final MediaPlayer mp112 = MediaPlayer.create(this, R.raw.v);
         final MediaPlayer mp113 = MediaPlayer.create(this, R.raw.w);
         final MediaPlayer mp114 = MediaPlayer.create(this, R.raw.x);
         final MediaPlayer mp115 = MediaPlayer.create(this, R.raw.y);
@@ -368,7 +368,8 @@ Button a,b,c,d,e,f,g,h,i,j,k,l,mm,n,o,p,q,r,s,t,u,v,w,x,y,z;
                     mp111.start();
             }
 
-        });        v.setOnClickListener(new View.OnClickListener() {
+        });
+        v.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 // If the music is playing

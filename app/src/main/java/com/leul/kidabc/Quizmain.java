@@ -63,7 +63,7 @@ public class Quizmain extends AppCompatActivity {
             if (resultCode==RESULT_OK){
                 int score=data.getIntExtra(quizActivity.EXTRA_SCORE,0);
                 if (score>highscore){
-                    updateHighscore(score);
+
                 }
             }
         }
@@ -71,16 +71,8 @@ public class Quizmain extends AppCompatActivity {
     private void loadhighscore(){
         SharedPreferences prefs=getSharedPreferences(SHARED_PREFS,MODE_PRIVATE);
         highscore=prefs.getInt(KEY_HIGHSCORE,0);
-        textviewhighscore.setText("Highscore: "+ highscore);
+
 
     }
-    private void updateHighscore(int hghscorenew){
-        highscore=hghscorenew;
-        textviewhighscore.setText("Highscore: "+ highscore);
 
-        SharedPreferences prefs=getSharedPreferences(SHARED_PREFS,MODE_PRIVATE);
-        SharedPreferences.Editor editor=prefs.edit();
-        editor.putInt(KEY_HIGHSCORE,highscore);
-        editor.apply();
-    }
 }

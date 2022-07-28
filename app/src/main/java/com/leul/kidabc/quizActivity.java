@@ -152,6 +152,7 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.Collections;
@@ -181,6 +182,7 @@ public class quizActivity extends AppCompatActivity {
     private boolean answered;
 
     private long backpressedtime;
+    Button back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -197,6 +199,7 @@ public class quizActivity extends AppCompatActivity {
         rb2 = findViewById(R.id.radio_button2);
         rb3 = findViewById(R.id.radio_button3);
         buttonConfirmNext = findViewById(R.id.button_confirm);
+        back=findViewById(R.id.button_back);
 
         textColorDefaultRb = rb1.getTextColors();
 
@@ -223,6 +226,14 @@ public class quizActivity extends AppCompatActivity {
                 }
             }
         });
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(getApplicationContext(),home.class);
+                startActivity(i);
+            }
+        });
     }
 
     private void showNextQuestion() {
@@ -247,6 +258,7 @@ public class quizActivity extends AppCompatActivity {
             finishQuiz();
         }
     }
+
 
     private void checkAnswer() {
         answered = true;
@@ -295,7 +307,13 @@ public class quizActivity extends AppCompatActivity {
         Intent resultIntent=new Intent();
         resultIntent.putExtra(EXTRA_SCORE,score);
         setResult(RESULT_OK,resultIntent);
-        finish();
+        AlertDialog.Builder builder=new AlertDialog.Builder(this);
+        builder.setMessage("CONGRA\n you score: "+score+" out of 5");
+        builder.setTitle("RESULT");
+        builder.setCancelable(true);
+        builder.show();
+
+
     }
 
     @Override
