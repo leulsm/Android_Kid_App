@@ -36,7 +36,7 @@ public class login extends AppCompatActivity {
                 next();
             }
         });
-
+        // LOGIN BUTTON TO STORE THE BUTTON
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

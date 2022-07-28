@@ -22,6 +22,7 @@ public class Quizmain extends AppCompatActivity {
 
     private int highscore;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -71,8 +72,6 @@ public class Quizmain extends AppCompatActivity {
     private void loadhighscore(){
         SharedPreferences prefs=getSharedPreferences(SHARED_PREFS,MODE_PRIVATE);
         highscore=prefs.getInt(KEY_HIGHSCORE,0);
-
-
     }
 
 }

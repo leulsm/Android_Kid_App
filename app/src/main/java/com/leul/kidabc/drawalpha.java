@@ -40,6 +40,7 @@ public class drawalpha extends AppCompatActivity {
         button1=findViewById(R.id.backk);
         up=findViewById(R.id.capitallet);
         lo=findViewById(R.id.smalllet);
+        // UPPER-CASE LETTER
         up.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -48,12 +49,13 @@ public class drawalpha extends AppCompatActivity {
                 tv.setText(a);
             }
         });
+        // LOWER-CASE LETTER
         lo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String a="abcdefghijklmnopqrstuvwxyz";
-tv=findViewById(R.id.dashboard_t);
-tv.setText(a);
+                tv=findViewById(R.id.dashboard_t);
+                tv.setText(a);
             }
         });
 
@@ -85,7 +87,7 @@ tv.setText(a);
                 startActivity(intent);
             }
         });
-
+    // CLEAR DRAWN PATH
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

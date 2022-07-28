@@ -5,9 +5,9 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-
+// CONECT TO SQLite DATABASE
 public class DatabaseHelper extends SQLiteOpenHelper {
-    //DAATA BASE NAME
+    //DATA BASE NAME
     public static final String DBName="kids_dat.db";
     public DatabaseHelper(Context context) {
         super(context, DBName, null, 1);
@@ -22,7 +22,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
         sqLiteDatabase.execSQL("drop table if exists KIDS");
     }
-// INSEART DATA
+    // INSEART DATA
     public Boolean insertData(String kidname, String password){
         SQLiteDatabase db=this.getWritableDatabase();
         ContentValues values=new ContentValues();

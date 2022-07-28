@@ -11,7 +11,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 
 import java.util.Objects;
-
+//LIST OF ALPHABET A-Z WITH BUTTON CLICK MUSICS
 public class alpha extends AppCompatActivity {
 Button a,b,c,d,e,f,g,h,i,j,k,l,mm,n,o,p,q,r,s,t,u,v,w,x,y,z;
     @Override
@@ -23,7 +23,7 @@ Button a,b,c,d,e,f,g,h,i,j,k,l,mm,n,o,p,q,r,s,t,u,v,w,x,y,z;
        // BACK GROUND COLOR FOR LINEAR LAYOUT
         LinearLayout m=findViewById(R.id.ll);
         m.setBackgroundColor(Color.parseColor("#e5ba84"));
-
+        //FIND BY ID
         a=findViewById(R.id.A);
         b=findViewById(R.id.B);
         d=findViewById(R.id.D);
@@ -50,8 +50,7 @@ Button a,b,c,d,e,f,g,h,i,j,k,l,mm,n,o,p,q,r,s,t,u,v,w,x,y,z;
         y=findViewById(R.id.Y);
         z=findViewById(R.id.Z);
 
-
-
+// GET MEDIAPLAYER TO PLAY SONGS
         final MediaPlayer mp1 = MediaPlayer.create(this, R.raw.a_song);
         final MediaPlayer mp2 = MediaPlayer.create(this, R.raw.b_song);
         final MediaPlayer mp4 = MediaPlayer.create(this, R.raw.d);
@@ -77,7 +76,7 @@ Button a,b,c,d,e,f,g,h,i,j,k,l,mm,n,o,p,q,r,s,t,u,v,w,x,y,z;
         final MediaPlayer mp114 = MediaPlayer.create(this, R.raw.x);
         final MediaPlayer mp115 = MediaPlayer.create(this, R.raw.y);
         final MediaPlayer mp116 = MediaPlayer.create(this, R.raw.z);
-
+// BUTTON ONCLICK MUSIC FUNCTIONS
         a.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

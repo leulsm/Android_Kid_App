@@ -1,5 +1,5 @@
 package com.leul.kidabc;
-
+// JAVA CLASS FOR SETING AND GETTING QUESTIONS WITH OPTIONS
 public class Question {
     private String question;
     private String option1;

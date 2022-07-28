@@ -13,7 +13,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.Objects;
-
+// HOME ACTIVITY
 public class home extends AppCompatActivity {
     private long backpressedtime;
     ImageButton learn,write,quiza,music;

@@ -38,6 +38,7 @@ TextView tv,tv1;
                 startActivity(intent);
             }
         });
+        //LOGOUT BUTTON
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -46,7 +47,7 @@ TextView tv,tv1;
            startActivity(intent);
             }
         });
-
+// ABOUT DEVELOPERS ACTIVITY
         btn_about.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
