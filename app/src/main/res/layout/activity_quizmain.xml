@@ -13,19 +13,10 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
         android:text="HELLO KIDS/ QUIZ TIME"
         android:textColor="@color/white"
         android:textSize="35sp" />
-
-    <TextView
-        android:id="@+id/text_highscore"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/start_button"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="32dp"
-        android:text="Highscore: 0"
-        android:textSize="20sp" />
 
     <Button
         android:id="@+id/start_button"
@@ -33,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="1dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
         android:backgroundTint="#C3883E"

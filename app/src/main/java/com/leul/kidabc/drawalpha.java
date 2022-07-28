@@ -18,7 +18,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
-
+// CLASS FOR DRAWING CANVASE
 public class drawalpha extends AppCompatActivity {
 
     RelativeLayout relativeLayout;

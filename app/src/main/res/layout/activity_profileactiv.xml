@@ -92,7 +92,16 @@
         android:layout_marginLeft="150dp"
         android:backgroundTint="@color/new_color111"
         android:text="logout"
-        app:icon="@drawable/ic_baseline_person_add_disabled_24" />
+        app:icon="@drawable/ic_baseline_power_settings_new_24" />
 </LinearLayout>
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:backgroundTint="@color/new_color111"
+        android:text="About"
+        app:icon="@drawable/ic_baseline_supervised_user_circle_24" />
 
 </LinearLayout>

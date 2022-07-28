@@ -39,7 +39,7 @@ public class Quizmain extends AppCompatActivity {
             }
         });
 
-        textviewhighscore=findViewById(R.id.text_highscore);
+
         loadhighscore();
 
 

@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KIDABC">
         <activity
+            android:name=".us"
+            android:exported="false" />
+        <activity
+            android:name=".alpha"
+            android:exported="false" />
+        <activity
             android:name=".profileactiv"
             android:exported="false" />
         <activity

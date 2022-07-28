@@ -8,8 +8,10 @@
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/drawable/radio_selected.xml" value="0.1" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/drawable/radio_selector.xml" value="0.1" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/drawable/radionormal.xml" value="0.1" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/layout/activity_alpha.xml" value="0.19791666666666666" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/layout/activity_alphabet.xml" value="0.1" />
-        <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/layout/activity_drawalpha.xml" value="0.22" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/layout/activity_alphamain.xml" value="0.1" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/layout/activity_drawalpha.xml" value="0.15" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
@@ -19,7 +21,10 @@
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/layout/activity_quiz.xml" value="0.1" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/layout/activity_quizmain.xml" value="0.2276595744680851" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/layout/activity_reg.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/layout/activity_us.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/layout/fragment_abcfragment.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/layout/fragment_alphabet.xml" value="0.25" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/layout/fragment_alphafragment.xml" value="0.1" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Android_Kid_App/app/src/main/res/layout/layout_bottom_pro.xml" value="0.1" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/KIDABC/app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/KIDABC/app/src/main/res/layout/activity_login.xml" value="0.22" />

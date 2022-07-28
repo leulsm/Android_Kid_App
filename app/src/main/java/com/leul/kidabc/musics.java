@@ -14,7 +14,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 import java.util.Objects;
-
+// ACTIVITY FOR THE LIST OF MUSICS
 public class musics extends AppCompatActivity {
     VideoView videoView;
     ListView listView;
@@ -59,8 +59,6 @@ public class musics extends AppCompatActivity {
                        break;
                    default:
                        break;
-
-
 
                }
                videoView.setMediaController(new MediaController(musics.this));

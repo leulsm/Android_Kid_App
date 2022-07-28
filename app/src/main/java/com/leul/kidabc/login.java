@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
-
+// LOGIN PAGE FOR USERS
 public class login extends AppCompatActivity {
     EditText name_field,password_field;
     Button login;

@@ -7,6 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
+    //DAATA BASE NAME
     public static final String DBName="kids_dat.db";
     public DatabaseHelper(Context context) {
         super(context, DBName, null, 1);
@@ -21,7 +22,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
         sqLiteDatabase.execSQL("drop table if exists KIDS");
     }
-
+// INSEART DATA
     public Boolean insertData(String kidname, String password){
         SQLiteDatabase db=this.getWritableDatabase();
         ContentValues values=new ContentValues();
@@ -35,6 +36,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         else
             return true;
     }
+    // CHECK INSEARTED NAME
     public Boolean checkkidsname(String kidname){
         SQLiteDatabase db=this.getWritableDatabase();
         Cursor cursor=db.rawQuery("SELECT * from KIDS where kidname=?",new String[] {kidname});
@@ -44,6 +46,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             return false;
         }
     }
+    //CHECK PASSWORD
     public Boolean checkkidsnamepassword(String kidname,String password){
         SQLiteDatabase db=this.getWritableDatabase();
         Cursor cursor=db.rawQuery("SELECT * from KIDS where kidname=? and password=?",new String[] {kidname,password});

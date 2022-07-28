@@ -10,7 +10,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+// ACTIVITY OF REJISSTRATION
 public class reg extends AppCompatActivity {
 
     EditText name_field,password_field,cpassword_field;
